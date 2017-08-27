@@ -27,13 +27,13 @@
             "value": null
         },
         "diagnosticsStorageAccountName": {
-            "value": "donfabrikamnodewebsvr1"
+            "value": "donfabrikamnode"
         },
         "diagnosticsStorageAccountType": {
             "value": "Standard_LRS"
         },
         "diagnosticsStorageAccountId": {
-            "value": "Microsoft.Storage/storageAccounts/donfabrikamnodewebsvr1"
+            "value": "Microsoft.Storage/storageAccounts/donfabrikamnode"
         },
         "addressPrefix": {
             "value": "172.16.8.0/24"
