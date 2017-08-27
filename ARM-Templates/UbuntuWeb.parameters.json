@@ -3,16 +3,16 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "location": {
-            "value": "southindia"
+            "value": "eastus"
         },
         "virtualMachineName": {
-            "value": "fabrikam-node-websvr1"
+            "value": "donNode"
         },
         "virtualMachineSize": {
             "value": "Standard_DS1_v2"
         },
         "adminUsername": {
-            "value": "atulm"
+            "value": "don"
         },
         "virtualNetworkName": {
             "value": "fabrikam-node-rg-vnet"
@@ -27,13 +27,13 @@
             "value": null
         },
         "diagnosticsStorageAccountName": {
-            "value": "fabrikamnodewebsvr1"
+            "value": "donfabrikamnodewebsvr1"
         },
         "diagnosticsStorageAccountType": {
             "value": "Standard_LRS"
         },
         "diagnosticsStorageAccountId": {
-            "value": "Microsoft.Storage/storageAccounts/fabrikamnodewebsvr1"
+            "value": "Microsoft.Storage/storageAccounts/donfabrikamnodewebsvr1"
         },
         "addressPrefix": {
             "value": "172.16.8.0/24"
