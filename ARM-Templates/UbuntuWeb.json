@@ -52,7 +52,7 @@
         }
     },
     "variables": {
-        "vnetId": "[resourceId('fabrikam-web-prod-rg','Microsoft.Network/virtualNetworks', parameters('virtualNetworkName'))]",
+        "vnetId": "[resourceId('web','Microsoft.Network/virtualNetworks', parameters('virtualNetworkName'))]",
         "subnetRef": "[concat(variables('vnetId'), '/subnets/', parameters('subnetName'))]"
     },
     "resources": [
